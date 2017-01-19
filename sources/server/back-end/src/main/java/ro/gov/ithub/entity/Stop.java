@@ -21,9 +21,6 @@ public class Stop implements BaseEntity {
     static final String COLUMN_STOP_ID = "STOP_ID";
     static final String COLUMN_PARENT_STATION = "PARENT_STATION";
 
-    public static final String COLUMN_STOP_LATITUDE = "STOP_LAT";
-    public static final String COLUMN_STOP_LONGITUDE = "STOP_LONG";
-
     @Id
     @Column
     @GeneratedValue(strategy = GenerationType.AUTO)

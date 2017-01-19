@@ -10,7 +10,7 @@ public interface BaseService<E extends BaseEntity, I extends Serializable> {
 
     Collection<E> findAll();
 
-    E findById(int id);
+    E findById(I id);
 
     void saveOrUpdate(E obj);
 

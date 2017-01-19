@@ -1,7 +1,6 @@
 package ro.gov.ithub.entity.util;
 
 import lombok.Getter;
-import ro.gov.ithub.entity.FareRule;
 
 /**
  * Created by Mihnea on 11/26/16.

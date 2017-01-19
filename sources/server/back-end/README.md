@@ -1,10 +1,4 @@
-Alfa este prima versiune a serverului REST. Dupa ce se stabilizeaza va deveni beta, si apoi stable. 
-
-Voi trece versiunea de compilator pe Java 7 (openjdk 1.7)
-
-
-Alfa -> Beta -> .. (acest folder)
-
+REST Server
 
 > Compiling
 To compile the Lombok generated boiler-plate code (e.g.: getters and setters), remember to download the Lombok plugin to your IDE: https://projectlombok.org/

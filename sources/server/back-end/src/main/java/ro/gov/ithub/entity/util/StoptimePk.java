@@ -1,11 +1,12 @@
 package ro.gov.ithub.entity.util;
 
 import lombok.EqualsAndHashCode;
-import ro.gov.ithub.entity.Stoptime;
 
-import javax.persistence.*;
+import javax.persistence.Access;
+import javax.persistence.AccessType;
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
 import java.io.Serializable;
-import java.util.Date;
 
 /**
  * Created by Mihnea on 11/26/16.

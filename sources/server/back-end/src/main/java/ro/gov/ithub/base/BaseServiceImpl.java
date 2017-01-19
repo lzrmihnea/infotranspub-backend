@@ -8,9 +8,9 @@ import java.util.Collection;
  */
 public abstract class BaseServiceImpl<E extends BaseEntity, I extends Serializable> implements BaseService<E, I> {
 
-    protected BaseRepository baseRepository;
+    protected BaseRepository<E, I> baseRepository;
 
-    protected BaseServiceImpl(BaseRepository baseRepo) {
+    protected BaseServiceImpl(BaseRepository<E, I> baseRepo) {
         this.baseRepository = baseRepo;
     }
 
@@ -20,8 +20,8 @@ public abstract class BaseServiceImpl<E extends BaseEntity, I extends Serializab
     }
 
     @Override
-    public E findById(int id) {
-        return (E) this.baseRepository.findOne(id);
+    public E findById(I id) {
+        return this.baseRepository.findOne(id);
     }
 
     @Override
