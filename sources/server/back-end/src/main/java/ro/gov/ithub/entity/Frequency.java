@@ -9,6 +9,7 @@ import ro.gov.ithub.entity.util.FrequencyExactTimes;
 import javax.persistence.*;
 import java.util.Date;
 
+@SuppressWarnings("serial")
 @Data
 @NoArgsConstructor
 @Entity

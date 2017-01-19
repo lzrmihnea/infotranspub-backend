@@ -9,6 +9,7 @@ import ro.gov.ithub.entity.util.RouteType;
 import javax.persistence.*;
 import java.util.Set;
 
+@SuppressWarnings("serial")
 @Data
 @NoArgsConstructor
 @Entity

@@ -9,6 +9,7 @@ import javax.persistence.*;
 import java.util.Date;
 import java.util.Set;
 
+@SuppressWarnings("serial")
 @Data
 @NoArgsConstructor
 @Entity

@@ -11,6 +11,7 @@ import ro.gov.ithub.entity.util.WheelchairAccessible;
 import javax.persistence.*;
 import java.util.Set;
 
+@SuppressWarnings("serial")
 @Data
 @NoArgsConstructor
 @Entity

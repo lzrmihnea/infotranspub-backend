@@ -10,6 +10,7 @@ import ro.gov.ithub.entity.util.FareAttributeTransfers;
 import javax.persistence.*;
 import java.util.Currency;
 
+@SuppressWarnings("serial")
 @Data
 @NoArgsConstructor
 @Entity

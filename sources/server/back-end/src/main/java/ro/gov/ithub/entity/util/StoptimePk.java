@@ -11,6 +11,7 @@ import java.io.Serializable;
 /**
  * Created by Mihnea on 11/26/16.
  */
+@SuppressWarnings("serial")
 @EqualsAndHashCode
 @Embeddable
 @Access(AccessType.FIELD)

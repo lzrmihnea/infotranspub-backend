@@ -8,6 +8,7 @@ import ro.gov.ithub.base.BaseEntity;
 import javax.persistence.*;
 import java.util.Set;
 
+@SuppressWarnings("serial")
 @Data
 @NoArgsConstructor
 @Entity

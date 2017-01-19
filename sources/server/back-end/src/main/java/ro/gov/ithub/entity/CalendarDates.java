@@ -9,6 +9,7 @@ import ro.gov.ithub.entity.util.ExceptionType;
 
 import javax.persistence.*;
 
+@SuppressWarnings("serial")
 @Data
 @NoArgsConstructor
 @Entity

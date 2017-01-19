@@ -8,6 +8,7 @@ import ro.gov.ithub.entity.util.TransferType;
 
 import javax.persistence.*;
 
+@SuppressWarnings("serial")
 @Data
 @NoArgsConstructor
 @Entity
