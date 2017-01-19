@@ -19,11 +19,11 @@ public class BaseRepositoryImpl<T extends BaseEntity, ID extends Serializable> e
 
     protected Class<T> type;
 
-    public BaseRepositoryImpl(JpaEntityInformation<T, ID> entityInformation, EntityManager entityManager) {
-        super(entityInformation, entityManager);
+    public BaseRepositoryImpl(JpaEntityInformation<T, ID> entityInfo, EntityManager entityMngr) {
+        super(entityInfo, entityMngr);
         // Keep the EntityManager around to used from the newly introduced methods.
-        this.entityManager = entityManager;
-        this.entityInformation = entityInformation;
+        this.entityManager = entityMngr;
+        this.entityInformation = entityInfo;
     }
 
     /**

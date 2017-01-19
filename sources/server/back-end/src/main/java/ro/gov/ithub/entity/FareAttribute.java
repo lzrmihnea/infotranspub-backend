@@ -50,7 +50,7 @@ public class FareAttribute implements BaseEntity {
         return Currency.getInstance(currency);
     }
 
-    public void setCurrency(Currency currency) {
-        this.currency = currency.getCurrencyCode();
+    public void setCurrency(Currency fareCurrency) {
+        this.currency = fareCurrency.getCurrencyCode();
     }
 }

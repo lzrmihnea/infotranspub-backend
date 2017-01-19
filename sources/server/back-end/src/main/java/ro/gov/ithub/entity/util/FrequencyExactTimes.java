@@ -13,5 +13,5 @@ public enum FrequencyExactTimes {
     @Getter
     private int exactTimes;
 
-    FrequencyExactTimes(int exactTimes) { this.exactTimes = exactTimes; }
+    FrequencyExactTimes(int exactNbOfTimes) { this.exactTimes = exactNbOfTimes; }
 }

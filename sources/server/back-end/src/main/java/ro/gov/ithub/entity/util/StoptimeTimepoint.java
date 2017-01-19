@@ -13,5 +13,5 @@ public enum StoptimeTimepoint {
     @Getter
     private Integer timepoint;
 
-    StoptimeTimepoint(Integer timepoint) { this.timepoint = timepoint; }
+    StoptimeTimepoint(Integer stoptimeTimepoint) { this.timepoint = stoptimeTimepoint; }
 }
