@@ -17,12 +17,9 @@ import static org.springframework.web.bind.annotation.RequestMethod.*;
 public class StopController extends BaseController<Stop> {
 
 	private static final String STOPS_EN = "/stops";
-	private static final String STOPS_RO = "/statii";
 	private static final String STOP_EN = "/stop";
-	private static final String STOP_RO = "/statie";
 	private static final String STOP_EN_BY_ID = "/stop/{stopId}";
-	private static final String STOP_RO_BY_ID = "/statie/{idStatie}";
-	
+
 	@Autowired
 	private StopService stopService;
 

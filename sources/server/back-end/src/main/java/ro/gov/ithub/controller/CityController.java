@@ -17,13 +17,9 @@ import static org.springframework.web.bind.annotation.RequestMethod.*;
 public class CityController extends BaseController<City> {
 
     private static final String CITIES_EN = "/citylist";
-    private static final String CITIES_RO = "/listaorase";
     private static final String CITY_EN = "/city";
-    private static final String CITY_RO = "/oras";
     private static final String CITY_EN_BY_NAME = "/city/{cityName}";
-    private static final String CITY_RO_BY_NAME = "/oras/{cityName}";
     private static final String CITY_EN_AGENCIES = "/city/{cityName}/agencylist";
-    private static final String CITIES_RO_AGENCIES = "/oras/{cityName}/listaregii/";
 
     @Autowired
     private CityService cityService;

@@ -17,12 +17,9 @@ import static org.springframework.web.bind.annotation.RequestMethod.*;
 public class AgencyController extends BaseController<Agency> {
 
 	private static final String AGENCIES_EN = "/agencies";
-	private static final String AGENCIES_RO = "/regii";
 	private static final String AGENCY_EN = "/agency";
-	private static final String AGENCY_RO = "/regie";
 	private static final String AGENCY_EN_BY_ID = "/agency/{agencyId}";
-	private static final String AGENCY_RO_BY_ID = "/regie/{idRegie}";
-	
+
 	@Autowired
 	private AgencyService agencyService;
 

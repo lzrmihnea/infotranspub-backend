@@ -17,12 +17,9 @@ import static org.springframework.web.bind.annotation.RequestMethod.*;
 public class TripController extends BaseController<Trip> {
 
 	private static final String TRIPS_EN = "/trips";
-	private static final String TRIPS_RO = "/calatorii";
 	private static final String TRIP_EN = "/trip";
-	private static final String TRIP_RO = "/calatorie";
 	private static final String TRIP_EN_BY_ID = "/trip/{tripId}";
-	private static final String TRIP_RO_BY_ID = "/calatorie/{idCalatorie}";
-	
+
 	@Autowired
 	private TripService tripService;
 
