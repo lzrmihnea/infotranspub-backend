@@ -2,7 +2,7 @@ REST Server
 
 > Compiling
 To compile the Lombok generated boiler-plate code (e.g.: getters and setters), remember to download the Lombok plugin to your IDE: https://projectlombok.org/
-The "alfa" application is a REST service, running on Spring. For more information: https://spring.io/guides/gs/rest-service/
+The "back-end" application is a REST service, running on Spring. For more information: https://spring.io/guides/gs/rest-service/
 
 
 > Database connection
@@ -11,14 +11,14 @@ After that, go to the application.properties file, and add the schema name there
 
 
 > Running
-To start the app, go to the "alfa" project folder:
- cd rest/server/alfa
+To start the app, go to the "back-end" project folder:
+ cd sources/server/back-end
 
 Build project files:
  mvn install
 
 The necessary files will be produces in the build folder, which in this example is "target". After that, the application can be run with:
- java -jar target/alfa-1.0.jar
+ java -jar target/back-end-1.0-SNAPSHOT.jar
 
 An API test call can be made to:
  http://localhost:8080/api/cities
